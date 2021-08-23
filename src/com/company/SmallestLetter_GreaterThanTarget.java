@@ -14,6 +14,5 @@ public class CeilingAlphabet
                 start = start+1;
         }
         return letters[start% letters.length];  //for wrapping around
-    
     }
 }
